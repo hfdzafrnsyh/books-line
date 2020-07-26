@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book's Line</title>
+    <link rel="shortcut icon" href="asset/image/icon-booksline.png">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" href="asset/font-awesome/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="logo-nav">
+                <h2>Book'sline</h2>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+
+                <li>
+                    <a href="list.html">LIST</a>
+                </li>
+                <li>
+                    <a href="form-order.html">FORM</a>
+                </li>
+            </ul>
+
+            <div class="navbar-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </nav>
+
+        <div class="caption-header">
+            <h3><u>Zona Garis Buku</u></h3>
+            <strong>Mau, Cari Buku Apa ? </strong>
+        </div>
+
+        <div class="search" onchange="searchBookKey()">
+
+            <input action="search" type="text" id="search" placeholder="Search..">
+            <button type="button" onclick="searchBook()">SEARCH</button>
+
+        </div>
+
+        <div id="text-search"></div>
+
+    </header>
+
+    <main>
+
+
+        <section class="form">
+
+            <h2>Form Order</h2>
+            <div class="form-order">
+                <form onsubmit="order()" type="post">
+                    <div class="form-input">
+                        <input type="text" name="namabuku" placeholder="Nama Buku..">
+                    </div>
+                    <div class="form-input">
+                        <input type="text" name="name" id="name" placeholder="Nama">
+                    </div>
+
+                    <div class="form-input">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="button-form">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-item">
+            <div class="footer-copyright">
+                <p><u>Copyright &copy;<span id="date"> </span> Develop By @<span>Hfdz</span></u></p>
+            </div>
+
+
+        </div>
+
+        <div class="footer-item">
+
+            <div class="footer-link">
+                <li><a href="index.html">HOME</a></li>
+                <li> <a href="#about">ABOUT</a></li>
+                <li><a href="list.html">LIST</a></li>
+                <li><a href="form-order.html">FORM</a></li>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="asset/js/books-line.js"></script>
+
+
+</body>
+
+</html>
