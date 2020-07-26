@@ -756,8 +756,17 @@ footer {
     }
 
 
+/* search */
 
 
+.search input {
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;
+    padding: 3px 3px;
+    font-size: 18px;
+  
+}
 
 
     /* popular */
