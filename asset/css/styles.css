@@ -38,12 +38,14 @@ header {
 nav {
     background-color: rgb(80, 255, 103);
     z-index: 900;
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: rgb(0, 137, 179);
     height: 100px;
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 137, 179);
 
 }
 
@@ -756,17 +758,17 @@ footer {
     }
 
 
-/* search */
+    /* search */
 
 
-.search input {
-    margin-top: 20px;
-    width: 250px;
-    height: 35px;
-    padding: 3px 3px;
-    font-size: 18px;
-  
-}
+    .search input {
+        margin-top: 20px;
+        width: 250px;
+        height: 35px;
+        padding: 3px 3px;
+        font-size: 18px;
+
+    }
 
 
     /* popular */
